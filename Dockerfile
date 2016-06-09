@@ -9,4 +9,4 @@ ENV TARGET_SERVICE=${TARGET_SERVICE}
 
 RUN printenv
 
-VOLUME ["/data/logs/$APP_NAME"]
+VOLUME ["/data/logs"]
